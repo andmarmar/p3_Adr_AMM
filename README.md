@@ -24,33 +24,48 @@ Para aumentar la incertidumbre de la observación, se ha aumentado el valor _obs
 Primero se hacen las simulaciones con el modelo 3D  (x, y, θ), el modelo más básico. 
 
 - Caso base
-![](figures/3d_base.png)
+  
+  ![](p3_ekf_adr/figures/3d_base.png)
+  
 - Caso con alta incertidumbre en la observacion
-![](figures/3d_obs.png)
+
+  ![](p3_ekf_adr/figures/3d_obs.png)
+
 - Caso con alta incertidumbre en el modelo de movimiento
-![](figures/3d_mov.png)
+
+  ![](p3_ekf_adr/figures/3d_mov.png)
 
 ### Modelo 7D
 
 A continuación se realizan con el modelo 7D  (x, y, θ, v, ω, ax, ay), que nos permite una mayor precisión, a cambio de coste computacional
 
 - Caso base
-![](figures/7d_base.png)
+  
+  ![](p3_ekf_adr/figures/7d_base.png)
+
 - Caso con alta incertidumbre en la observacion
-![](figures/7d_obs.png)
+  
+  ![](p3_ekf_adr/figures/7d_obs.png)
+
 - Caso con alta incertidumbre en el modelo de movimiento
-![](figures/7d_mov.png)
+  
+  ![](p3_ekf_adr/figures/7d_mov.png)
 
 ### Modelo 8D
 
 Por último se realizan con el modelo 8D (x, y, θ, vx, vy, ω, ax, ay), que nos permite una precisión aún mayor, pero con un coste computacional todavía más elevado. 
 
 - Caso base
-![](figures/8d_base.png)
+  
+  ![](p3_ekf_adr/figures/8d_base.png)
+
 - Caso con alta incertidumbre en la observacion
-![](figures/8d_obs.png)
+
+  ![](p3_ekf_adr/figures/8d_obs.png)
+
 - Caso con alta incertidumbre en el modelo de movimiento
-![](figures/8d_mov.png)
+
+  ![](p3_ekf_adr/figures/8d_mov.png)
 
 
 ### Evaluación de resultados 
